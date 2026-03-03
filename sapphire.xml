@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+    <!-- Cihaz Ağacı (Device Tree) -->
+    <project name="Mercynome/android_device_xiaomi_sapphire" path="device/xiaomi/sapphire" remote="github" revision="16-lineage" />
+    <project name="Mercynome/android_device_xiaomi_sm6225-common" path="device/xiaomi/sm6225-common" remote="github" revision="bq2" />
+    <project name="Mercynome/android_device_xiaomi_sapphire-kernel" path="device/xiaomi/sapphire-kernel" remote="github" revision="16" />
+    <project name="Mercynome/device_xiaomi_miuicamera-sapphire" path="device/xiaomi/miuicamera-sapphire" remote="github" revision="main" />
+    <project name="Mercynome/device_xiaomi_sepolicy" path="device/xiaomi/sepolicy" remote="github" revision="16" />
+    <project name="Mercynome/android_device_qcom_sepolicy_vndr_sm6225" path="device/qcom/sepolicy_vndr/sm6225" remote="github" revision="16-qpr2" />
+
+    <!-- Vendor (Satıcı) Dosyaları -->
+    <project name="Mercynome/android_vendor_xiaomi_sapphire" path="vendor/xiaomi/sapphire" remote="github" revision="lineage-23.0" />
+    <project name="Mercynome/android_vendor_xiaomi_sm6225-common" path="vendor/xiaomi/sm6225-common" remote="github" revision="16" />
+    <project name="Mercynome/vendor_xiaomi_miuicamera-sapphire" path="vendor/xiaomi/miuicamera-sapphire" remote="github" revision="main" />
+
+    <!-- Hardware ve Kernel -->
+    <project name="Mercynome/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="lineage-23.2" />
+    <project name="Mercynome/android_hardware_qcom-caf_common" path="hardware/qcom-caf/common" remote="github" revision="lineage-23.2" />
+    <project name="Mercynome/android_hardware_qcom-caf_sm6225_media" path="hardware/qcom-caf/sm6225/media" remote="github" revision="sixteen" />
+    <project name="Mercynome/hardware_dolby" path="hardware/dolby" remote="github" revision="A16" />
+
+    <!-- QCOM CAF SM6225 Audio ve Data -->
+    <project name="Mercynome/hardware_qcom-caf_sm6225_audio_pal" path="hardware/qcom-caf/sm6225/audio/pal" remote="github" revision="16-qpr2" />
+    <project name="Mercynome/hardware_qcom-caf_sm6225_audio_agm" path="hardware/qcom-caf/sm6225/audio/agm" remote="github" revision="16-qpr2" />
+    <project name="Mercynome/hardware_qcom-caf_sm6225_audio_primary-hal" path="hardware/qcom-caf/sm6225/audio/primary-hal" remote="github" revision="16-qpr2" />
+    <project name="Mercynome/hardware_qcom-caf_sm6225_dataipa" path="hardware/qcom-caf/sm6225/dataipa" remote="github" revision="16-qpr2" />
+    <project name="Mercynome/hardware_qcom-caf_sm6225_data-ipa-cfg-mgr" path="hardware/qcom-caf/sm6225/data-ipa-cfg-mgr" remote="github" revision="16-qpr2" />
+
+    <!-- Ekstra Uygulamalar -->
+    <project name="Mercynome/sapphire-hypercam-smali" path="sapphire-hypercam-smali" remote="github" revision="master" />
+</manifest>
